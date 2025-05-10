@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>ENN AI Library</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>ENN (Easy Neural Network)</h1>
+  <p>Your vanilla JS neural net library, ready for browser or Node.js.</p>
+
+  <h2>Browser Build</h2>
+  <ul>
+    <li><a href="enn.js" target="_blank">enn.js</a> (unminified)</li>
+    <li><a href="enn.min.js" target="_blank">enn.min.js</a> (minified)</li>
+  </ul>
+
+  <h2>Node.js Build</h2>
+  <ul>
+    <li><a href="enn-node.js" target="_blank">enn-node.js</a> (unminified)</li>
+    <li><a href="enn-node.min.js" target="_blank">enn-node.min.js</a> (minified)</li>
+  </ul>
+
+  <h2>Quickstart</h2>
+  <pre><code>
+// Browser
+<script src="enn.min.js"></script>
+const nn = new Brain(2,4,1);
+
+// Node
+import { Brain } from './enn-node.js';
+const nn2 = new Brain(2,4,1);
+  </code></pre>
+</body>
+</html>
